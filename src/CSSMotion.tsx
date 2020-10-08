@@ -123,7 +123,7 @@ export function genCSSMotion(
       visible = true,
       removeOnLeave = true,
 
-      forceRender,
+      forceRender = true,
       children,
       motionName,
       leavedClassName,
